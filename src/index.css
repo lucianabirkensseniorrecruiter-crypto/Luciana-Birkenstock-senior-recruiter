@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-navy: #142B43;
+  --color-navy-dark: #0D1C2C;
+  --color-navy-light: #1D3D5E;
+  --color-navy-muted: #244C73;
+  
+  --color-gold: #C6A15B;
+  --color-gold-hover: #B5904A;
+  --color-gold-light: #EBDCBA;
+  --color-gold-subtle: #F7F3EB;
+  
+  --color-charcoal: #252B32;
+  --color-charcoal-muted: #4B5563;
+  --color-charcoal-light: #6B7280;
+  
+  --color-softgray: #F5F6F8;
+  --color-softgray-warm: #FAF9F6;
+  --color-softgray-border: #E5E7EB;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  color: #252B32;
+  background-color: #FFFFFF;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle gold foil text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #DFCA9B 0%, #C6A15B 50%, #9F7A34 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle navy shimmer */
+.bg-navy-gradient {
+  background: linear-gradient(165deg, #18334E 0%, #142B43 60%, #0F2032 100%);
+}
